@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0-*",
+  "description": "ReceiverConsole Console Application",
+  "authors": [ "waheedsayed" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Messages": "1.0.0-*",
+    "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
+    "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final"
+  },
+
+  "commands": {
+    "ReceiverConsole": "ReceiverConsole"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "EasyNetQ": "0.55.1.426"
+      }
+    }
+  }
+}
